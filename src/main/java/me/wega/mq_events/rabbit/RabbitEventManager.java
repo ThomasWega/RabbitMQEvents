@@ -1,8 +1,8 @@
-package me.wega.rabbit;
+package me.wega.mq_events.rabbit;
 
 import com.rabbitmq.client.*;
-import me.wega.event.PostResult;
-import me.wega.rabbit.config.RabbitEventConfig;
+import me.wega.mq_events.event.PostResult;
+import me.wega.mq_events.rabbit.config.RabbitEventConfig;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.json.JSONObject;

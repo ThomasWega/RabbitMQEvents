@@ -1,6 +1,6 @@
-package me.wega.rabbit.config;
+package me.wega.mq_events.rabbit.config;
 
-import me.wega.rabbit.RabbitEvent;
+import me.wega.mq_events.rabbit.RabbitEvent;
 import org.jetbrains.annotations.NotNull;
 
 /**

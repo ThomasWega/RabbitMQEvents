@@ -1,8 +1,8 @@
-package me.wega.event;
+package me.wega.mq_events.event;
 
-import me.wega.rabbit.RabbitEvent;
-import me.wega.rabbit.RabbitEventBus;
-import me.wega.rabbit.RabbitEventManager;
+import me.wega.mq_events.rabbit.RabbitEvent;
+import me.wega.mq_events.rabbit.RabbitEventBus;
+import me.wega.mq_events.rabbit.RabbitEventManager;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Predicate;

@@ -1,9 +1,9 @@
-package me.wega.rabbit;
+package me.wega.mq_events.rabbit;
 
-import me.wega.event.EventBus;
-import me.wega.event.EventSubscriber;
-import me.wega.event.PostResult;
-import me.wega.rabbit.config.RabbitEventConfig;
+import me.wega.mq_events.event.EventBus;
+import me.wega.mq_events.event.EventSubscriber;
+import me.wega.mq_events.event.PostResult;
+import me.wega.mq_events.rabbit.config.RabbitEventConfig;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
@@ -14,7 +14,7 @@ import java.util.function.Predicate;
  * Similar to normal {@link EventBus} however, when an event is sent with {@link RabbitEventBus},
  * rather than looping through the subscribers, the event data is converted to JSON and then published
  * as a message to RabbitMQ. From there the event can be received on multiple servers
- * (instances of toolkit and event buses)
+ * (event buses)
  *
  * @param <E> Event type
  */

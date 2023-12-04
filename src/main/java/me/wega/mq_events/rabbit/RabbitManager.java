@@ -1,4 +1,4 @@
-package me.wega.rabbit;
+package me.wega.mq_events.rabbit;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;

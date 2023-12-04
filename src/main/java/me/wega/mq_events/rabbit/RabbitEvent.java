@@ -1,6 +1,6 @@
-package me.wega.rabbit;
+package me.wega.mq_events.rabbit;
 
-import me.wega.event.Event;
+import me.wega.mq_events.event.Event;
 
 /**
  * Type of event that is used in RabbitMQ and supports sending the event as JSON message

@@ -1,4 +1,4 @@
-package me.wega.rabbit;
+package me.wega.mq_events.rabbit;
 
 import org.jetbrains.annotations.NotNull;
 

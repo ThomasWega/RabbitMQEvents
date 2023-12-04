@@ -1,4 +1,4 @@
-package me.wega.event;
+package me.wega.mq_events.event;
 
 /**
  * The "post order" is a representation of the order, relative to other posts,

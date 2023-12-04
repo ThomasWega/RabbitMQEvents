@@ -1,8 +1,8 @@
-package me.wega.rabbit.config;
+package me.wega.mq_events.rabbit.config;
 
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.BuiltinExchangeType;
-import me.wega.rabbit.RabbitEvent;
+import me.wega.mq_events.rabbit.RabbitEvent;
 import org.jetbrains.annotations.NotNull;
 import org.json.JSONObject;
 

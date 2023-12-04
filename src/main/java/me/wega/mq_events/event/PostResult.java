@@ -1,4 +1,4 @@
-package me.wega.event;
+package me.wega.mq_events.event;
 
 import org.jetbrains.annotations.NotNull;
 
