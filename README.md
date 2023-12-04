@@ -65,6 +65,11 @@ public class TestEventConfig implements RabbitEventConfigFactory<TestEvent> {
 }
 ```
 
+### Cancellable events
+
+Events can be cancellable with priorities in mind.
+Just implement from `Cancellable` interface or extend from `AbstractCancellable` class
+
 ## Subscribing to Events
 
 Subscribe to events with a dedicated event subscriber class:
@@ -90,7 +95,7 @@ public class TestEventSubscriber implements EventSubscriber<TestEvent> {
 
 This will create the following queues and exchanges
 
-![image](https://github.com/ThomasWega/RabbitMQEvents/assets/82312488/edadfb5d-4d9d-445f-b2aa-1c0b25f04bd8)
+![image](https://github.com/ThomasWega/RabbitMQEvents/assets/82312488/f8d838f4-494d-4292-a523-ff41d5871d91)
 ![image](https://github.com/ThomasWega/RabbitMQEvents/assets/82312488/11044bef-54af-4a4b-bcda-f34290280495)
 
 
