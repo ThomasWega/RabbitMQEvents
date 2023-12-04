@@ -2,7 +2,7 @@
 
 ## Initialization
 
-To start using RabbitMQEvents, initialize the necessary components in your application. Below is an example in Java:
+To start using RabbitMQEvents, you need initialize the necessary `RabbitManager`, `RabbitEventManager` and create an `EventBus`. Below is an example:
 
 ```java
 // Initialize RabbitMQ manager
