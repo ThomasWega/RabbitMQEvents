@@ -62,6 +62,12 @@ public class TestEventSubscriber implements EventSubscriber<TestEvent> {
 }
 ```
 
+This will create the following queues and exchanges
+
+![image](https://github.com/ThomasWega/RabbitMQEvents/assets/82312488/edadfb5d-4d9d-445f-b2aa-1c0b25f04bd8)
+![image](https://github.com/ThomasWega/RabbitMQEvents/assets/82312488/11044bef-54af-4a4b-bcda-f34290280495)
+
+
 ## Publishing Events
 
 Publish events using the event manager:
@@ -81,5 +87,3 @@ rabbitManager.close();
 ## Example Usage
 
 Explore a complete example of RabbitMQEvents used in a Minecraft Spigot plugin [here](https://github.com/ThomasWega/RabbitMQEvents-Example).
-
-
